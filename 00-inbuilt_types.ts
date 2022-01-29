@@ -19,7 +19,7 @@ basket = ['basketball', 10];
 //Enum
 enum Size {Small = 1, Medium, Large}
 let sizeName: string = Size[2];
-alert(sizeName); // Displays 'Medium' as its value is 2 above
+console.log(sizeName); // Displays 'Medium' as its value is 2 above
 
 //Any
 let whatever: any = 'aaaaghhhhhh noooooo!';
